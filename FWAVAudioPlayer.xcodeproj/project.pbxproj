@@ -1,0 +1,675 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A59545B720FD854800024A58 /* bukeyi.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A59545B620FD854800024A58 /* bukeyi.mp3 */; };
+		A59545BA20FD874A00024A58 /* AVAudioToolBoxVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A59545B920FD874A00024A58 /* AVAudioToolBoxVC.m */; };
+		A59545BF20FDD56B00024A58 /* MPMusicPlayerVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A59545BE20FDD56B00024A58 /* MPMusicPlayerVC.m */; };
+		A5F0B2FB210EF44100E91BAF /* AnimateTableVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A5F0B2FA210EF44100E91BAF /* AnimateTableVC.m */; };
+		A5F0B2FF210EF4BC00E91BAF /* ViewController+extension.m in Sources */ = {isa = PBXBuildFile; fileRef = A5F0B2FE210EF4BC00E91BAF /* ViewController+extension.m */; };
+		A5F0B309210F187900E91BAF /* UIImageView+CornerRadius.m in Sources */ = {isa = PBXBuildFile; fileRef = A5F0B308210F187900E91BAF /* UIImageView+CornerRadius.m */; };
+		A5F0B30C21103DB800E91BAF /* UIImage+CircleImage.m in Sources */ = {isa = PBXBuildFile; fileRef = A5F0B30B21103DB800E91BAF /* UIImage+CircleImage.m */; };
+		A5F0B3132112A7D900E91BAF /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = A5F0B3122112A7D900E91BAF /* Person.m */; };
+		A5F0B31921143F6300E91BAF /* Person+AddPositonAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = A5F0B31821143F6300E91BAF /* Person+AddPositonAttribute.m */; };
+		A5F0B31C2115486000E91BAF /* BaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A5F0B31B2115486000E91BAF /* BaseModel.m */; };
+		A5F0B31F21158BC800E91BAF /* NSObject+Model.m in Sources */ = {isa = PBXBuildFile; fileRef = A5F0B31E21158BC800E91BAF /* NSObject+Model.m */; };
+		A5F0B3222115AB7500E91BAF /* UIButton+CustomSendAction.m in Sources */ = {isa = PBXBuildFile; fileRef = A5F0B3212115AB7500E91BAF /* UIButton+CustomSendAction.m */; };
+		A5FBA52A206880EB0005B250 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A5FBA529206880EB0005B250 /* AppDelegate.m */; };
+		A5FBA52D206880EB0005B250 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A5FBA52C206880EB0005B250 /* ViewController.m */; };
+		A5FBA530206880EB0005B250 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5FBA52E206880EB0005B250 /* Main.storyboard */; };
+		A5FBA533206880EB0005B250 /* FWAVdieoPlayer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A5FBA531206880EB0005B250 /* FWAVdieoPlayer.xcdatamodeld */; };
+		A5FBA535206880EB0005B250 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5FBA534206880EB0005B250 /* Assets.xcassets */; };
+		A5FBA538206880EB0005B250 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5FBA536206880EB0005B250 /* LaunchScreen.storyboard */; };
+		A5FBA53B206880EB0005B250 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A5FBA53A206880EB0005B250 /* main.m */; };
+		A5FBA545206880EB0005B250 /* FWAVdieoPlayerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A5FBA544206880EB0005B250 /* FWAVdieoPlayerTests.m */; };
+		A5FBA550206880EB0005B250 /* FWAVdieoPlayerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A5FBA54F206880EB0005B250 /* FWAVdieoPlayerUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A5FBA541206880EB0005B250 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A5FBA51D206880EA0005B250 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A5FBA524206880EA0005B250;
+			remoteInfo = FWAVdieoPlayer;
+		};
+		A5FBA54C206880EB0005B250 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A5FBA51D206880EA0005B250 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A5FBA524206880EA0005B250;
+			remoteInfo = FWAVdieoPlayer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A59545B620FD854800024A58 /* bukeyi.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bukeyi.mp3; sourceTree = "<group>"; };
+		A59545B820FD874A00024A58 /* AVAudioToolBoxVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AVAudioToolBoxVC.h; sourceTree = "<group>"; };
+		A59545B920FD874A00024A58 /* AVAudioToolBoxVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AVAudioToolBoxVC.m; sourceTree = "<group>"; };
+		A59545BC20FD87A300024A58 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		A59545BD20FDD56B00024A58 /* MPMusicPlayerVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MPMusicPlayerVC.h; sourceTree = "<group>"; };
+		A59545BE20FDD56B00024A58 /* MPMusicPlayerVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MPMusicPlayerVC.m; sourceTree = "<group>"; };
+		A5F0B2F9210EF44100E91BAF /* AnimateTableVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AnimateTableVC.h; sourceTree = "<group>"; };
+		A5F0B2FA210EF44100E91BAF /* AnimateTableVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AnimateTableVC.m; sourceTree = "<group>"; };
+		A5F0B2FD210EF4BC00E91BAF /* ViewController+extension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ViewController+extension.h"; sourceTree = "<group>"; };
+		A5F0B2FE210EF4BC00E91BAF /* ViewController+extension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "ViewController+extension.m"; sourceTree = "<group>"; };
+		A5F0B300210F133F00E91BAF /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		A5F0B307210F187900E91BAF /* UIImageView+CornerRadius.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImageView+CornerRadius.h"; sourceTree = "<group>"; };
+		A5F0B308210F187900E91BAF /* UIImageView+CornerRadius.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+CornerRadius.m"; sourceTree = "<group>"; };
+		A5F0B30A21103DB800E91BAF /* UIImage+CircleImage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+CircleImage.h"; sourceTree = "<group>"; };
+		A5F0B30B21103DB800E91BAF /* UIImage+CircleImage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+CircleImage.m"; sourceTree = "<group>"; };
+		A5F0B3112112A7D900E91BAF /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		A5F0B3122112A7D900E91BAF /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		A5F0B31721143F6300E91BAF /* Person+AddPositonAttribute.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Person+AddPositonAttribute.h"; sourceTree = "<group>"; };
+		A5F0B31821143F6300E91BAF /* Person+AddPositonAttribute.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Person+AddPositonAttribute.m"; sourceTree = "<group>"; };
+		A5F0B31A2115486000E91BAF /* BaseModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseModel.h; sourceTree = "<group>"; };
+		A5F0B31B2115486000E91BAF /* BaseModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseModel.m; sourceTree = "<group>"; };
+		A5F0B31D21158BC800E91BAF /* NSObject+Model.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+Model.h"; sourceTree = "<group>"; };
+		A5F0B31E21158BC800E91BAF /* NSObject+Model.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Model.m"; sourceTree = "<group>"; };
+		A5F0B3202115AB7500E91BAF /* UIButton+CustomSendAction.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIButton+CustomSendAction.h"; sourceTree = "<group>"; };
+		A5F0B3212115AB7500E91BAF /* UIButton+CustomSendAction.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIButton+CustomSendAction.m"; sourceTree = "<group>"; };
+		A5FBA525206880EB0005B250 /* FWAVdieoPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FWAVdieoPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5FBA528206880EB0005B250 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A5FBA529206880EB0005B250 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A5FBA52B206880EB0005B250 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A5FBA52C206880EB0005B250 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A5FBA52F206880EB0005B250 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A5FBA532206880EB0005B250 /* FWAVdieoPlayer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FWAVdieoPlayer.xcdatamodel; sourceTree = "<group>"; };
+		A5FBA534206880EB0005B250 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A5FBA537206880EB0005B250 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A5FBA539206880EB0005B250 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A5FBA53A206880EB0005B250 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A5FBA540206880EB0005B250 /* FWAVdieoPlayerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FWAVdieoPlayerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5FBA544206880EB0005B250 /* FWAVdieoPlayerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FWAVdieoPlayerTests.m; sourceTree = "<group>"; };
+		A5FBA546206880EB0005B250 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A5FBA54B206880EB0005B250 /* FWAVdieoPlayerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FWAVdieoPlayerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5FBA54F206880EB0005B250 /* FWAVdieoPlayerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FWAVdieoPlayerUITests.m; sourceTree = "<group>"; };
+		A5FBA551206880EB0005B250 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A5FBA522206880EA0005B250 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5FBA53D206880EB0005B250 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5FBA548206880EB0005B250 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A59545BB20FD87A300024A58 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A59545BC20FD87A300024A58 /* AudioToolbox.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A5F0B2FC210EF4A100E91BAF /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				A5F0B2FD210EF4BC00E91BAF /* ViewController+extension.h */,
+				A5F0B2FE210EF4BC00E91BAF /* ViewController+extension.m */,
+				A5F0B307210F187900E91BAF /* UIImageView+CornerRadius.h */,
+				A5F0B308210F187900E91BAF /* UIImageView+CornerRadius.m */,
+				A5F0B30A21103DB800E91BAF /* UIImage+CircleImage.h */,
+				A5F0B30B21103DB800E91BAF /* UIImage+CircleImage.m */,
+				A5F0B31721143F6300E91BAF /* Person+AddPositonAttribute.h */,
+				A5F0B31821143F6300E91BAF /* Person+AddPositonAttribute.m */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		A5F0B3102112A7A300E91BAF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A5F0B3112112A7D900E91BAF /* Person.h */,
+				A5F0B3122112A7D900E91BAF /* Person.m */,
+				A5F0B31A2115486000E91BAF /* BaseModel.h */,
+				A5F0B31B2115486000E91BAF /* BaseModel.m */,
+				A5F0B31D21158BC800E91BAF /* NSObject+Model.h */,
+				A5F0B31E21158BC800E91BAF /* NSObject+Model.m */,
+				A5F0B3202115AB7500E91BAF /* UIButton+CustomSendAction.h */,
+				A5F0B3212115AB7500E91BAF /* UIButton+CustomSendAction.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A5FBA51C206880EA0005B250 = {
+			isa = PBXGroup;
+			children = (
+				A5FBA527206880EB0005B250 /* FWAVAudioPlayer */,
+				A5FBA543206880EB0005B250 /* FWAVAudioPlayerTests */,
+				A5FBA54E206880EB0005B250 /* FWAVAudioPlayerUITests */,
+				A5FBA526206880EB0005B250 /* Products */,
+				A59545BB20FD87A300024A58 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A5FBA526206880EB0005B250 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A5FBA525206880EB0005B250 /* FWAVdieoPlayer.app */,
+				A5FBA540206880EB0005B250 /* FWAVdieoPlayerTests.xctest */,
+				A5FBA54B206880EB0005B250 /* FWAVdieoPlayerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A5FBA527206880EB0005B250 /* FWAVAudioPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				A5F0B3102112A7A300E91BAF /* Model */,
+				A5F0B2FC210EF4A100E91BAF /* Extension */,
+				A5FBA528206880EB0005B250 /* AppDelegate.h */,
+				A5FBA529206880EB0005B250 /* AppDelegate.m */,
+				A5FBA52B206880EB0005B250 /* ViewController.h */,
+				A5FBA52C206880EB0005B250 /* ViewController.m */,
+				A59545B820FD874A00024A58 /* AVAudioToolBoxVC.h */,
+				A59545B920FD874A00024A58 /* AVAudioToolBoxVC.m */,
+				A59545BD20FDD56B00024A58 /* MPMusicPlayerVC.h */,
+				A59545BE20FDD56B00024A58 /* MPMusicPlayerVC.m */,
+				A5F0B2F9210EF44100E91BAF /* AnimateTableVC.h */,
+				A5F0B2FA210EF44100E91BAF /* AnimateTableVC.m */,
+				A5FBA52E206880EB0005B250 /* Main.storyboard */,
+				A5FBA534206880EB0005B250 /* Assets.xcassets */,
+				A5F0B300210F133F00E91BAF /* PrefixHeader.pch */,
+				A5FBA536206880EB0005B250 /* LaunchScreen.storyboard */,
+				A5FBA539206880EB0005B250 /* Info.plist */,
+				A5FBA53A206880EB0005B250 /* main.m */,
+				A5FBA531206880EB0005B250 /* FWAVdieoPlayer.xcdatamodeld */,
+				A59545B620FD854800024A58 /* bukeyi.mp3 */,
+			);
+			path = FWAVAudioPlayer;
+			sourceTree = "<group>";
+		};
+		A5FBA543206880EB0005B250 /* FWAVAudioPlayerTests */ = {
+			isa = PBXGroup;
+			children = (
+				A5FBA544206880EB0005B250 /* FWAVdieoPlayerTests.m */,
+				A5FBA546206880EB0005B250 /* Info.plist */,
+			);
+			path = FWAVAudioPlayerTests;
+			sourceTree = "<group>";
+		};
+		A5FBA54E206880EB0005B250 /* FWAVAudioPlayerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A5FBA54F206880EB0005B250 /* FWAVdieoPlayerUITests.m */,
+				A5FBA551206880EB0005B250 /* Info.plist */,
+			);
+			path = FWAVAudioPlayerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A5FBA524206880EA0005B250 /* FWAVdieoPlayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A5FBA554206880EB0005B250 /* Build configuration list for PBXNativeTarget "FWAVdieoPlayer" */;
+			buildPhases = (
+				A5FBA521206880EA0005B250 /* Sources */,
+				A5FBA522206880EA0005B250 /* Frameworks */,
+				A5FBA523206880EA0005B250 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FWAVdieoPlayer;
+			productName = FWAVdieoPlayer;
+			productReference = A5FBA525206880EB0005B250 /* FWAVdieoPlayer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A5FBA53F206880EB0005B250 /* FWAVdieoPlayerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A5FBA557206880EB0005B250 /* Build configuration list for PBXNativeTarget "FWAVdieoPlayerTests" */;
+			buildPhases = (
+				A5FBA53C206880EB0005B250 /* Sources */,
+				A5FBA53D206880EB0005B250 /* Frameworks */,
+				A5FBA53E206880EB0005B250 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A5FBA542206880EB0005B250 /* PBXTargetDependency */,
+			);
+			name = FWAVdieoPlayerTests;
+			productName = FWAVdieoPlayerTests;
+			productReference = A5FBA540206880EB0005B250 /* FWAVdieoPlayerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A5FBA54A206880EB0005B250 /* FWAVdieoPlayerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A5FBA55A206880EB0005B250 /* Build configuration list for PBXNativeTarget "FWAVdieoPlayerUITests" */;
+			buildPhases = (
+				A5FBA547206880EB0005B250 /* Sources */,
+				A5FBA548206880EB0005B250 /* Frameworks */,
+				A5FBA549206880EB0005B250 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A5FBA54D206880EB0005B250 /* PBXTargetDependency */,
+			);
+			name = FWAVdieoPlayerUITests;
+			productName = FWAVdieoPlayerUITests;
+			productReference = A5FBA54B206880EB0005B250 /* FWAVdieoPlayerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A5FBA51D206880EA0005B250 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = zhangfuwei;
+				TargetAttributes = {
+					A5FBA524206880EA0005B250 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+					A5FBA53F206880EB0005B250 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A5FBA524206880EA0005B250;
+					};
+					A5FBA54A206880EB0005B250 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A5FBA524206880EA0005B250;
+					};
+				};
+			};
+			buildConfigurationList = A5FBA520206880EA0005B250 /* Build configuration list for PBXProject "FWAVAudioPlayer" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A5FBA51C206880EA0005B250;
+			productRefGroup = A5FBA526206880EB0005B250 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A5FBA524206880EA0005B250 /* FWAVdieoPlayer */,
+				A5FBA53F206880EB0005B250 /* FWAVdieoPlayerTests */,
+				A5FBA54A206880EB0005B250 /* FWAVdieoPlayerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A5FBA523206880EA0005B250 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5FBA538206880EB0005B250 /* LaunchScreen.storyboard in Resources */,
+				A59545B720FD854800024A58 /* bukeyi.mp3 in Resources */,
+				A5FBA535206880EB0005B250 /* Assets.xcassets in Resources */,
+				A5FBA530206880EB0005B250 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5FBA53E206880EB0005B250 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5FBA549206880EB0005B250 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A5FBA521206880EA0005B250 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5FBA52D206880EB0005B250 /* ViewController.m in Sources */,
+				A5F0B30C21103DB800E91BAF /* UIImage+CircleImage.m in Sources */,
+				A5F0B31921143F6300E91BAF /* Person+AddPositonAttribute.m in Sources */,
+				A5F0B3132112A7D900E91BAF /* Person.m in Sources */,
+				A5FBA52A206880EB0005B250 /* AppDelegate.m in Sources */,
+				A59545BF20FDD56B00024A58 /* MPMusicPlayerVC.m in Sources */,
+				A59545BA20FD874A00024A58 /* AVAudioToolBoxVC.m in Sources */,
+				A5F0B31C2115486000E91BAF /* BaseModel.m in Sources */,
+				A5F0B2FF210EF4BC00E91BAF /* ViewController+extension.m in Sources */,
+				A5F0B31F21158BC800E91BAF /* NSObject+Model.m in Sources */,
+				A5F0B2FB210EF44100E91BAF /* AnimateTableVC.m in Sources */,
+				A5FBA53B206880EB0005B250 /* main.m in Sources */,
+				A5FBA533206880EB0005B250 /* FWAVdieoPlayer.xcdatamodeld in Sources */,
+				A5F0B309210F187900E91BAF /* UIImageView+CornerRadius.m in Sources */,
+				A5F0B3222115AB7500E91BAF /* UIButton+CustomSendAction.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5FBA53C206880EB0005B250 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5FBA545206880EB0005B250 /* FWAVdieoPlayerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5FBA547206880EB0005B250 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5FBA550206880EB0005B250 /* FWAVdieoPlayerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A5FBA542206880EB0005B250 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A5FBA524206880EA0005B250 /* FWAVdieoPlayer */;
+			targetProxy = A5FBA541206880EB0005B250 /* PBXContainerItemProxy */;
+		};
+		A5FBA54D206880EB0005B250 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A5FBA524206880EA0005B250 /* FWAVdieoPlayer */;
+			targetProxy = A5FBA54C206880EB0005B250 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A5FBA52E206880EB0005B250 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A5FBA52F206880EB0005B250 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A5FBA536206880EB0005B250 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A5FBA537206880EB0005B250 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A5FBA552206880EB0005B250 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREFIX_HEADER = "${SRCROOT}/FWAVAudioPlayer/PrefixHeader.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A5FBA553206880EB0005B250 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "${SRCROOT}/FWAVAudioPlayer/PrefixHeader.pch";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A5FBA555206880EB0005B250 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "$(SRCROOT)/FWAVAudioPlayer/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = fourvcat.FWAVdieoPlayer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A5FBA556206880EB0005B250 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "$(SRCROOT)/FWAVAudioPlayer/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = fourvcat.FWAVdieoPlayer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A5FBA558206880EB0005B250 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FWAVdieoPlayerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = fourvcat.FWAVdieoPlayerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FWAVdieoPlayer.app/FWAVdieoPlayer";
+			};
+			name = Debug;
+		};
+		A5FBA559206880EB0005B250 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FWAVdieoPlayerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = fourvcat.FWAVdieoPlayerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FWAVdieoPlayer.app/FWAVdieoPlayer";
+			};
+			name = Release;
+		};
+		A5FBA55B206880EB0005B250 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FWAVdieoPlayerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = fourvcat.FWAVdieoPlayerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FWAVdieoPlayer;
+			};
+			name = Debug;
+		};
+		A5FBA55C206880EB0005B250 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FWAVdieoPlayerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = fourvcat.FWAVdieoPlayerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FWAVdieoPlayer;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A5FBA520206880EA0005B250 /* Build configuration list for PBXProject "FWAVAudioPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5FBA552206880EB0005B250 /* Debug */,
+				A5FBA553206880EB0005B250 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A5FBA554206880EB0005B250 /* Build configuration list for PBXNativeTarget "FWAVdieoPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5FBA555206880EB0005B250 /* Debug */,
+				A5FBA556206880EB0005B250 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A5FBA557206880EB0005B250 /* Build configuration list for PBXNativeTarget "FWAVdieoPlayerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5FBA558206880EB0005B250 /* Debug */,
+				A5FBA559206880EB0005B250 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A5FBA55A206880EB0005B250 /* Build configuration list for PBXNativeTarget "FWAVdieoPlayerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5FBA55B206880EB0005B250 /* Debug */,
+				A5FBA55C206880EB0005B250 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A5FBA531206880EB0005B250 /* FWAVdieoPlayer.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A5FBA532206880EB0005B250 /* FWAVdieoPlayer.xcdatamodel */,
+			);
+			currentVersion = A5FBA532206880EB0005B250 /* FWAVdieoPlayer.xcdatamodel */;
+			path = FWAVdieoPlayer.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = A5FBA51D206880EA0005B250 /* Project object */;
+}
